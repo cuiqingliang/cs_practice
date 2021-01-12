@@ -6,7 +6,7 @@ from appium_practice.PO_practice.page.app import App
 class Test_Po_wx:
     def setup(self):
         self.main=App()
-        self.main.start().go_mainpage()
+        self.main.start()
 
     def test_addmem(self):
         name='ww'
